@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD541C591D1B0CB900022845 /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD541C581D1B0CB900022845 /* Obstacle.sks */; };
+		AD541C5B1D1B14AE00022845 /* MSButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD541C5A1D1B14AE00022845 /* MSButtonNode.swift */; };
+		AD541C5F1D1B1B1900022845 /* GameEffects.sks in Resources */ = {isa = PBXBuildFile; fileRef = AD541C5E1D1B1B1900022845 /* GameEffects.sks */; };
 		ADC218051D1A002200F2010C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC218041D1A002200F2010C /* AppDelegate.swift */; };
 		ADC218071D1A002200F2010C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADC218061D1A002200F2010C /* GameScene.sks */; };
 		ADC218091D1A002200F2010C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC218081D1A002200F2010C /* GameScene.swift */; };
@@ -14,9 +17,16 @@
 		ADC2180E1D1A002200F2010C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC2180C1D1A002200F2010C /* Main.storyboard */; };
 		ADC218101D1A002200F2010C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADC2180F1D1A002200F2010C /* Assets.xcassets */; };
 		ADC218131D1A002200F2010C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADC218111D1A002200F2010C /* LaunchScreen.storyboard */; };
+		ADC2181F1D1A08B000F2010C /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADC2181E1D1A08B000F2010C /* Hero.sks */; };
+		ADC218241D1AF4C100F2010C /* sfx_flap.caf in Resources */ = {isa = PBXBuildFile; fileRef = ADC218211D1AF4C100F2010C /* sfx_flap.caf */; };
+		ADC218251D1AF4C100F2010C /* sfx_goal.caf in Resources */ = {isa = PBXBuildFile; fileRef = ADC218221D1AF4C100F2010C /* sfx_goal.caf */; };
+		ADC218281D1AF5D300F2010C /* CGFloat+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADC218271D1AF5D300F2010C /* CGFloat+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD541C581D1B0CB900022845 /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
+		AD541C5A1D1B14AE00022845 /* MSButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSButtonNode.swift; sourceTree = "<group>"; };
+		AD541C5E1D1B1B1900022845 /* GameEffects.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameEffects.sks; sourceTree = "<group>"; };
 		ADC218011D1A002200F2010C /* HoppyBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoppyBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADC218041D1A002200F2010C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADC218061D1A002200F2010C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -26,6 +36,10 @@
 		ADC2180F1D1A002200F2010C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADC218121D1A002200F2010C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADC218141D1A002200F2010C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADC2181E1D1A08B000F2010C /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		ADC218211D1AF4C100F2010C /* sfx_flap.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_flap.caf; sourceTree = "<group>"; };
+		ADC218221D1AF4C100F2010C /* sfx_goal.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = sfx_goal.caf; sourceTree = "<group>"; };
+		ADC218271D1AF5D300F2010C /* CGFloat+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGFloat+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +72,31 @@
 		ADC218031D1A002200F2010C /* HoppyBunny */ = {
 			isa = PBXGroup;
 			children = (
+				AD541C5A1D1B14AE00022845 /* MSButtonNode.swift */,
+				ADC218271D1AF5D300F2010C /* CGFloat+Extensions.swift */,
 				ADC218041D1A002200F2010C /* AppDelegate.swift */,
+				ADC2181E1D1A08B000F2010C /* Hero.sks */,
 				ADC218061D1A002200F2010C /* GameScene.sks */,
+				AD541C5E1D1B1B1900022845 /* GameEffects.sks */,
 				ADC218081D1A002200F2010C /* GameScene.swift */,
+				AD541C581D1B0CB900022845 /* Obstacle.sks */,
 				ADC2180A1D1A002200F2010C /* GameViewController.swift */,
 				ADC2180C1D1A002200F2010C /* Main.storyboard */,
+				ADC218261D1AF4FC00F2010C /* SFX */,
 				ADC2180F1D1A002200F2010C /* Assets.xcassets */,
 				ADC218111D1A002200F2010C /* LaunchScreen.storyboard */,
 				ADC218141D1A002200F2010C /* Info.plist */,
 			);
 			path = HoppyBunny;
+			sourceTree = "<group>";
+		};
+		ADC218261D1AF4FC00F2010C /* SFX */ = {
+			isa = PBXGroup;
+			children = (
+				ADC218211D1AF4C100F2010C /* sfx_flap.caf */,
+				ADC218221D1AF4C100F2010C /* sfx_goal.caf */,
+			);
+			name = SFX;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,10 +157,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD541C591D1B0CB900022845 /* Obstacle.sks in Resources */,
 				ADC218071D1A002200F2010C /* GameScene.sks in Resources */,
+				ADC218251D1AF4C100F2010C /* sfx_goal.caf in Resources */,
 				ADC218131D1A002200F2010C /* LaunchScreen.storyboard in Resources */,
+				ADC2181F1D1A08B000F2010C /* Hero.sks in Resources */,
+				AD541C5F1D1B1B1900022845 /* GameEffects.sks in Resources */,
 				ADC218101D1A002200F2010C /* Assets.xcassets in Resources */,
 				ADC2180E1D1A002200F2010C /* Main.storyboard in Resources */,
+				ADC218241D1AF4C100F2010C /* sfx_flap.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +178,9 @@
 			files = (
 				ADC218091D1A002200F2010C /* GameScene.swift in Sources */,
 				ADC2180B1D1A002200F2010C /* GameViewController.swift in Sources */,
+				ADC218281D1AF5D300F2010C /* CGFloat+Extensions.swift in Sources */,
 				ADC218051D1A002200F2010C /* AppDelegate.swift in Sources */,
+				AD541C5B1D1B14AE00022845 /* MSButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +330,7 @@
 				ADC218191D1A002200F2010C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
